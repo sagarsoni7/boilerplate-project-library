@@ -1,19 +1,19 @@
 .border {
   border-style: inset;
   border-width: 1px;
-  margin: 10px;
+/*   margin: 10px; */
 }
 
 #sampleui {
   max-width: 450px;
-  margin-left: 5%;
+/*   margin-left: 5%; */
   height: 100%;
 }
 
 #sampleposting {
   max-width: 450px;
   text-align: center;
-  margin-left: 5%;
+/*   margin-left: 5%; */
 }
 
 #userstories {
@@ -22,4 +22,26 @@
 
 form {
   padding: 5px;
+}
+body {
+  background-color: #CACFD2;
+  font-family: Cambria;
+  text-align:center
+}
+.project {
+color: #2C3E50;
+}
+code{
+  background-color:white;
+  font-size: 15px;
+}
+::placeholder{
+  text-align: center
+}
+input {
+  text-align:center
+}
+.container {
+  display: flex;
+  justify-content:center;
 }
